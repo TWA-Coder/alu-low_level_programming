@@ -2,10 +2,10 @@
 /**
 *main-prints using puts function the given input to the console(stdout)
 *
-* return 0
+* return: it return zero
 */
 int main(void)
 {
-    puts("Programming is like building a multilingual puzzle");
-    return(0);
+    puts ("Programming is like building a multilingual puzzle");
+    return (0);
 }
