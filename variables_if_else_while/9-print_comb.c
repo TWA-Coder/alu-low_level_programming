@@ -11,7 +11,6 @@ int num;
 for (num = '0'; num <= '9'; num++)
 {
 putchar(num);
-putchar(' ');
 if (num == '9')
 {
 break;
@@ -19,6 +18,7 @@ break;
 else
 {
 putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
