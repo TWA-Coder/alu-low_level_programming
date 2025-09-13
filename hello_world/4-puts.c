@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main-prints using puts function the given input to the console(stdout)
+*main - prints using puts function the given input to the console(stdout)
 *
-* return: it return zero
+*Return: 0 if the code run and EOF if it doesn't
 */
 
 int main(void)
