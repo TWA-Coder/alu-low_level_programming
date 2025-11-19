@@ -8,6 +8,7 @@
  */
 int _abs(int a)
 {
+<<<<<<< HEAD
 int k = a;
 int absvalue;
 
@@ -17,4 +18,15 @@ k = k * (-1);
 }
 absvalue = k;
 return (absvalue);
+=======
+	int k = a;
+	int absvalue;
+
+	if (k < 0)
+	{
+		k = k * (-1);
+	}
+	absvalue = k;
+	return (absvalue);
+>>>>>>> 9ff9dc5 (pointers nested loops)
 }

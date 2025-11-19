@@ -11,5 +11,9 @@
  */
 int add(int a, int b)
 {
+<<<<<<< HEAD
 return (a + b);
+=======
+	return (a + b);
+>>>>>>> 9ff9dc5 (pointers nested loops)
 }
